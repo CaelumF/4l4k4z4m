@@ -16,7 +16,7 @@ fun main(args: Array<String>) {
     }
 
     val containerConfig = ContainerConfig.builder().apply {
-        image("4l4k4z4m`")
+        image("4l4k4z4m")
         tty(true)
         cmd("tail")
         hostConfig(hostConfig)
